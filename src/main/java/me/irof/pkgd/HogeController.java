@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 public class HogeController {
 
     HogeService service;
+    PiyoService piyoService;
 
     public HogeController(HogeService service) {
         this.service = service;
