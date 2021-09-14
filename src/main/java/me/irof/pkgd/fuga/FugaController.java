@@ -1,5 +1,6 @@
 package me.irof.pkgd.fuga;
 
+import me.irof.pkgd.piyo.PiyoService;
 import org.springframework.stereotype.Controller;
 
 @Controller
