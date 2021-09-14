@@ -1,4 +1,4 @@
-package me.irof.pkgd;
+package me.irof.pkgd.hoge;
 
 import org.springframework.stereotype.Controller;
 

@@ -1,4 +1,4 @@
-package me.irof.pkgd;
+package me.irof.pkgd.piyo;
 
 import org.springframework.stereotype.Service;
 

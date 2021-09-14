@@ -1,7 +1,7 @@
-package me.irof.pkgd;
+package me.irof.pkgd.fuga;
 
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class HogeRepository {
+public class FugaRepository {
 }
