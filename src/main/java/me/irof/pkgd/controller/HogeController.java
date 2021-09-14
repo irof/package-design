@@ -1,5 +1,6 @@
-package me.irof.pkgd;
+package me.irof.pkgd.controller;
 
+import me.irof.pkgd.service.HogeService;
 import org.springframework.stereotype.Controller;
 
 @Controller
