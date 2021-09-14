@@ -27,3 +27,6 @@ test {
 [compileJava, processResources]*.shouldRunAfter(clean)
 jigReports.dependsOn(clean, classes)
 
+jig {
+    modelPattern = '.+'
+}
