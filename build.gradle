@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.5.4'
+    id 'org.dddjava.jig-gradle-plugin' version '2021.9.2'
+}
+
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation platform("org.springframework.boot:spring-boot-dependencies:2.5.4")
+    implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
+
+    runtimeOnly("com.h2database:h2")
+
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
+}
+
+test {
+    useJUnitPlatform()
+}
+
+[compileJava, processResources]*.shouldRunAfter(clean)
+jigReports.dependsOn(clean, classes)
+

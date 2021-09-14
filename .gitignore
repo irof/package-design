@@ -1,0 +1,11 @@
+# For idea
+.idea/
+
+# For Gradle
+build/
+.gradle
+
+# For mac
+.DS_Store
+
+out/
