@@ -1,4 +1,4 @@
-package me.irof.pkgd.hoge;
+package me.irof.pkgd.hoge.repository;
 
 import org.springframework.stereotype.Repository;
 

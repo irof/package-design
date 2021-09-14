@@ -1,4 +1,4 @@
-package me.irof.pkgd.fuga;
+package me.irof.pkgd.fuga.repository;
 
 import org.springframework.stereotype.Repository;
 
