@@ -1,6 +1,6 @@
-package me.irof.pkgd.controller;
+package me.irof.pkgd.controller.fuga;
 
-import me.irof.pkgd.service.FugaService;
+import me.irof.pkgd.service.fuga.FugaService;
 import org.springframework.stereotype.Controller;
 
 @Controller

@@ -1,6 +1,6 @@
-package me.irof.pkgd.service;
+package me.irof.pkgd.service.fuga;
 
-import me.irof.pkgd.repository.FugaRepository;
+import me.irof.pkgd.repository.fuga.FugaRepository;
 import org.springframework.stereotype.Service;
 
 @Service

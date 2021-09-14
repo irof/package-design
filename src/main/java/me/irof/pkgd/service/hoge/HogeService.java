@@ -1,6 +1,6 @@
-package me.irof.pkgd.service;
+package me.irof.pkgd.service.hoge;
 
-import me.irof.pkgd.repository.HogeRepository;
+import me.irof.pkgd.repository.hoge.HogeRepository;
 import org.springframework.stereotype.Service;
 
 @Service
